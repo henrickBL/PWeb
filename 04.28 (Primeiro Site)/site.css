@@ -1,7 +1,26 @@
-/* estilos.css */
-
 body {
-    background-color: black;
-    color: white;
-  }
-  
+  background-color: black; /* Cor de fundo */
+  font-family: Arial, sans-serif; /* Fonte */
+}
+
+img {
+  max-width: 500px; /* Largura máxima das imagens */
+  border: 1px solid #ccc; /* Borda nas imagens */
+}
+
+h1 {
+  color: whitesmoke; /* Cor da fonte */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte */
+}
+
+p {
+  color: whitesmoke; /* Cor da fonte */
+}
+
+a {
+  color: whitesmoke; /* Cor da fonte do link que leva ao meu github */
+}
+
+a:hover {
+  color: #ccc; /* Cor da fonte ao passar o mouse */
+}
