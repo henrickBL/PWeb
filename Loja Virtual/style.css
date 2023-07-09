@@ -11,6 +11,10 @@ body {
       font-size: 14px;
     }
   }
+
+  .barra {
+    display: flex;
+  }
   
   header {
     background-color: #232f3e;
