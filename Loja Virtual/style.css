@@ -5,6 +5,12 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  @media (max-width: 1080px) {
+    body {
+      font-size: 14px;
+    }
+  }
   
   header {
     background-color: #232f3e;
