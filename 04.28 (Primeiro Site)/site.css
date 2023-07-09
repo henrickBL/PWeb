@@ -1,0 +1,41 @@
+body {
+  background-color: black; /* Cor de fundo */
+  font-family: Arial, sans-serif; /* Fonte */
+}
+
+li {
+  color: whitesmoke; /* Cor da fonte */
+  margin-left: 50px; /* Margem esquerda da lista */
+}
+
+img {
+  margin-top: 25px; /* Margem superior da imagem */
+  margin-left: 50px; /* Margem esquerda da imagem */
+  width: 300; /* Largura da imagem */
+  height: fit-content; /* Altura da imagem */
+  border: 1px solid #ccc; /* Borda nas imagens */
+}
+
+h1 {
+  color: whitesmoke; /* Cor da fonte */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte */
+}
+
+h3 {
+  color: whitesmoke; /* Cor da fonte */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte */
+  margin-left: 25px; /* Margem esquerda do título */
+}
+
+p {
+  color: whitesmoke; /* Cor da fonte */
+  margin-left: 50px; /* Margem esquerda do parágrafo */
+}
+
+a {
+  color: whitesmoke; /* Cor da fonte do link que leva ao meu github */
+}
+
+a:hover {
+  color: #ccc; /* Cor da fonte ao passar o mouse */
+}

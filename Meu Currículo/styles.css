@@ -1,0 +1,51 @@
+h4{
+    color: black;
+}
+body{
+    margin: 0%;
+}
+header{
+    height: 50px;
+    background-color: darkgray;
+    align-content: center;
+    width: 100%;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+}
+a{
+    margin-left: 2.5%;
+    text-decoration: none;
+}
+.caixa{
+    display: flex;
+}
+.borda{
+    border: 2px solid black;
+}
+
+.right{
+    width: 99%;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+}
+.hobbies{
+    height: 150px;
+    width: 150px;
+}
+.Img-Txt{
+    margin-left: 1%; 
+    text-align: center;
+}
+.botão{
+    height: 30px;
+    width: 100px;
+    align-self: flex-end;
+}
+#perfil{
+    height: 200px;
+    border-radius: 50%;
+}
