@@ -6,10 +6,28 @@ body {
     padding: 0;
   }
 
+  #imgproduto {
+    width: 200px;
+    height: auto;
+  }
+
+  title {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
   @media (max-width: 1080px) {
     body {
       font-size: 14px;
     }
+  }
+
+  #slide {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
   }
 
   .barra {
@@ -21,6 +39,34 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+  }
+
+  nav ul {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
   }
   
   section {
@@ -51,3 +97,32 @@ body {
     text-align: center;
   }
   
+  .search-bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 315px;
+    border-bottom: 10px;
+  }
+  
+  .search-bar button {
+    margin-left: -6px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #232f3e;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-bar button:hover {
+    background-color: #232f3e;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #ccc; /* Cor da fonte ao passar o mouse */
+  }
